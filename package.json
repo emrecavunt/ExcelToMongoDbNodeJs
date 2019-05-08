@@ -1,0 +1,33 @@
+{
+  "name": "csvmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Emre Cavunt",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "convert-excel-to-json": "^1.5.2",
+    "csvjson": "^5.1.0",
+    "excel": "^1.0.0",
+    "express": "^4.16.4",
+    "fast-json-stringify": "^1.9.2",
+    "json-schema-converter": "0.0.4",
+    "json-schema-to-mongoose": "^0.2.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.12",
+    "mongoose-gen": "^2.1.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "excel-as-json": "^2.0.2",
+    "nodemon": "^1.18.6"
+  }
+}
